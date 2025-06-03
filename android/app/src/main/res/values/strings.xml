@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Push Link</string>
+    <string name="title_activity_main">Push Link</string>
+    <string name="package_name">io.ionic.demo.push</string>
+    <string name="custom_url_scheme">io.ionic.demo.push</string>
+</resources>
