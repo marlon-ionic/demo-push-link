@@ -59,7 +59,7 @@ curl --location 'https://fcm.googleapis.com/v1/projects/YOUR-FIREBASE-PROJECT-ID
 
 1. Clone the repository:
   ```shell
-  git clone https://github.com/your-username/demo-push-link.git
+  git clone https://github.com/marlon-ionic/demo-push-link.git
   ```
 2. Install dependencies:
   ```shell
