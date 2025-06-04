@@ -29,6 +29,10 @@ export class AppComponent implements OnInit {
       (token: Token) => console.log('Push registration success, token: ', token.value)
     );
 
+
+    // Since this won't be called if the app is killed, we also have an Android service in the native code
+    // See android/app/src/main/java/io/ionic/demo/push/MyOpenLinkMessagingService.java
+    // Docs: https://capacitorjs.com/docs/apis/push-notifications#silent-push-notifications--data-only-notifications
     PushNotifications.addListener(
       'pushNotificationReceived',
       async (notification: PushNotificationSchema) => {
